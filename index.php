@@ -11,14 +11,13 @@
   <body>
 
     <header>
-      <a href="#" class="brand">Travel & Tourism</a>
+      <a href="index.html" class="brand">Travel & Tourism</a>
       <div class="menu-btn"></div>
       <div class="navigation">
         <div class="navigation-items">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Explore</a>
-          <a href="gallery.html">Gallery</a>
+          <a href="index.html">Home</a>
+          <a href="Pages/explore.html">Explore</a>
+          <a href="Pages/gallery.html">Gallery</a>
         </div>
       </div>
     </header>
