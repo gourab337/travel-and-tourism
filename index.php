@@ -54,9 +54,10 @@
         <a href="#">Read More</a>
       </div>
       <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/_kornicasen_/"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="kornica">
+      <a href="#"><img src="Media/kornica.svg"></a>
       </div>
       <div class="slider-navigation">
         <div class="nav-btn active"></div>
