@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australia</title>
+    <link rel="icon" href="../Media/favicon.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    table {
+        position: absolute;
+        left: 50%;
+        top: 500px;
+        transform: translate(-50%, -50%);
+        border-collapse: collapse;
+        width: 1000px;
+        height: 200px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+        cursor: pointer;
+    }
+    
+    th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #header {
+        background-color: #000000;
+        color: #fff;
+    }
+    
+    tr:hover {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    @media only screen and (max-width: 768px) {
+   
+        table {
+            width: 90%;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <a href="../index.html" class="brand">Travel & Tourism</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="../index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        </div>
+      </header>
+    <hr>
+
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+            <source src="../Media/explore-bg.mp4" type="video/mp4">
+        </video>
+      </div> 
+    
+    <table>
+        <tr id="header">
+            <th>Place</th>
+            <th>Day</th>
+            <th>Tourist Attraction</th>
+            <th>Food</th>
+            <th>Transport</th>
+            <th>Cost</th>
+        </tr>
+        <tr>
+            <td>Ocenia-Fiji </td>
+            <td>Wednesday(1.09.2021)</td>
+            <td>Blue lagoon,Cloudbreak,Fiji Museum,Colo-I-Suva Forest Park</td>
+            <td>Kokoda,Lovo,Nama,Fish Suruwa</td>
+            <td>Land transport</td>
+            <td>Rs11,200 per day</td>
+
+        </tr>
+        <tr>
+            <td>Oceania-Solomon Islands</td>
+            <td>Sunday(5.09.21) </td>
+            <td>Kennedy island, Tenura falls, Vilu war museum,Boneg I and II</td>
+            <td>fish,taro leaves,cassava,curried eke</td>
+            <td>Water transport</td>
+            <td>Rs10500 per day</td>
+
+        </tr>
+        <tr>
+            <td>Oceania-Palau</td>
+            <td>Tuesday(7.09.21)</td>
+            <td>Jellyfish lake,Milky way,Long beach,Rock islands</td>
+            <td>Kebabs,Lylon and Kababu</td>
+            <td>Land Transport</td>
+            <td>Rs10000 per day</td>
+
+        </tr>
+        <tr>
+            <td>Ocenia-Marshall Islands</td>
+            <td>Thursday(9.09.2021)</td>
+            <td>Arno Atoll, Alele Museum,Eneko,Majuro bridge</td>
+            <td>Barramundi cod,seafood</td>
+            <td>Domestic water transport</td>
+            <td>Rs15000 per day</td>
+
+        </tr>
+        <tr>
+            <td>Oceania-New Zealand </td>
+            <td>Monday,13th September </td>
+            <td>Bay of Islands,Queenstown,Rotorua,Aoraki</td>
+            <td>Cheerios,Meat pies,Kumara chips,Hokey Pokey ice cream</td>
+            <td>Bus</td>
+            <td>Rs 9,543 per day</td>
+
+        </tr>
+        <tr>
+            <td>Oceania-Samoa </td>
+            <td>Thursday,16th September</td>
+            <td>Malietoa Monument,Papaseaa Sliding Rock,Chef John Tours,Island Show</td>
+            <td>Faiei Eleni,Kopai,Pani Popo,Palusami</td>
+            <td>Ships,Buses</td>
+            <td>Rs 13,495</td>
+
+        </tr>
+        <tr>
+            <td>Oceania-Papua New Guinea</td>
+            <td>Monday,20th September</td>
+            <td>Port Moresby,Rabaul,Madang,Lae</td>
+            <td>Sweet Potato,Sago,Cassava,Breadfruit</td>
+            <td>road,ports and airports</td>
+            <td>Rs 13,719</td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
